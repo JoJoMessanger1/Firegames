@@ -1,0 +1,66 @@
+/* Grundstyles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #222 0%, #444 100%);
+  color: #eee;
+  text-align: center;
+  user-select: none;
+  overflow-x: hidden;
+}
+
+.centered {
+  margin-top: 80px;
+}
+
+button {
+  background-color: #28a745;
+  border: none;
+  padding: 14px 28px;
+  margin: 12px;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+#gameCanvas {
+  display: block;
+  margin: 20px auto;
+  border-radius: 15px;
+  background: #1e1e1e;
+  box-shadow: 0 0 20px #0f0;
+  max-width: 95vw;
+  max-height: 80vh;
+}
+
+#score {
+  font-size: 22px;
+  margin-top: 10px;
+  font-weight: bold;
+  text-shadow: 0 0 5px #0f0;
+}
+
+#btnBack {
+  margin-top: 20px;
+  background-color: #444;
+  color: #0f0;
+}
+
+#joystickContainer {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  width: 120px;
+  height: 120px;
+  background: rgba(40, 40, 40, 0.5);
+  border-radius: 50%;
+  touch-action: none;
+  user-select: none;
+  z-index: 1000;
+}
