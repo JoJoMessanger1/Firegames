@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>City Runner & Race – Spiel & Notizen</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="menu" class="centered">
+    <h1>🏃‍♂️ City Runner & Race 🏎️</h1>
+    <button id="btnRunner">Laufspiel starten</button>
+    <button id="btnRace">Rennspiel starten</button>
+    <p><small>Gehe im Spiel in das grüne Rohr für geheime Notizen</small></p>
+  </div>
+
+  <div id="game" style="display:none;">
+    <button id="btnBack">🔙 Zurück zum Menü</button>
+    <canvas id="gameCanvas" width="900" height="600"></canvas>
+    <div id="score"></div>
+    <div id="joystickContainer" style="display:none;"></div>
+  </div>
+
+  <script src="main.js"></script>
+  <script src="runner.js"></script>
+  <script src="race.js"></script>
+</body>
+</html>
